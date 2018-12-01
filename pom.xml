@@ -56,9 +56,9 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <configuration>
-                    <includes>com.*</includes>
-                </configuration>
+                <!--<configuration>-->
+                    <!--<includes>com.*</includes>-->
+                <!--</configuration>-->
                 <executions>
                     <execution>
                         <id>pre-test</id>
